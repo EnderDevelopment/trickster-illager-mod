@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "tricksterillagermod",
+    "version": "1.0.0",
+    "name": "Trickster Illager Mod",
+    "description": "Adds a new Trickster Illager mob to Minecraft.",
+    "authors": [
+        "gulledgechristopher398"
+    ],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.gulledgechristopher398.tricksterillagermod.TricksterIllagerMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
